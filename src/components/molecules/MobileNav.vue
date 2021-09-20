@@ -19,25 +19,8 @@ export default defineComponent({
 <style lang="scss" scoped>
 .nav-bar {
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas:
-    "services"
-    "about"
-    "cases"
-    "contact";
-  grid-gap: 2.5rem;
-}
-.services {
-  grid-area: services;
-}
-.about {
-  grid-area: about;
-}
-.cases {
-  grid-area: cases;
-}
-.contact {
-  grid-area: contact;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 </style>
