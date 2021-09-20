@@ -9,4 +9,11 @@
   max-width: 1150px;
   margin: 0 auto;
 }
+@media (max-width: 720px) {
+  .container {
+    width: 85%;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
 </style>

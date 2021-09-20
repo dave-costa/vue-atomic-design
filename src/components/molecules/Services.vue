@@ -36,4 +36,18 @@ export default defineComponent({
     line-height: 1.5;
   }
 }
+@media (max-width: 768px) {
+  .services {
+    .title {
+      color: #935e92;
+      font-weight: bold;
+      margin-bottom: 0.8rem;
+    }
+    .content {
+      color: #293947;
+      line-height: 1.5;
+      line-break: auto;
+    }
+  }
+}
 </style>

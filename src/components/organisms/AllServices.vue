@@ -30,4 +30,11 @@ export default defineComponent({
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5rem;
 }
+@media (max-width: 720px) {
+  .all-s {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5rem;
+  }
+}
 </style>

@@ -1,8 +1,8 @@
 <template>
   <Container class="home">
-    <Header />
-    <Presentation />
-    <AllServices />
+    <Header class="header" />
+    <Presentation class="presentation" />
+    <AllServices class="all-s" />
   </Container>
 </template>
 <script>
